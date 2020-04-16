@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/2a771f4374.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <img src="images/James_Richardson.jpg" alt="James Richardson">
+        <div class="header-img">
+            <img src="images/James_Richardson.jpg" alt="James Richardson">
+        </div>
 
         <div class="introduction">
             <h1>James Richardson</h1>
@@ -23,136 +26,145 @@
 
         <div class="contacts">
             <ul>
-                <li><i class="fas fa-map-marker-alt"></i>
-                    35/D Furitan Jam des Mu</li>
-                <li><i class="fas fa-envelope-square"></i>
-                    j.richard@gmail.com</li>
-                <li><i class="fas fa-phone-square-alt"></i>
-                    +3773218742117</li>
+                <li><i class="fas fa-map-marker-alt"></i><a href="https://">35/D Furitan Jam Mu</a></li>
+                <li><i class="fas fa-envelope-square"></i><a href="mailto:j.richard@gmail.com">j.richard@gmail.com</a>
+                </li>
+                <li><i class="fas fa-phone-square-alt"></i><a href="tel:+3773218742117">+3773218742117</a></li>
             </ul>
         </div>
     </header>
 
     <div class="main-container">
         <aside>
-            <div class="prof-info">
-                <div class="info-title">
-                    <div class="prof-img"><i class="fas fa-briefcase"></i></div>
-                    <h2>Profile Info</h2>
-                </div>
-
-                <div class="info-par">
+            <div class="content-wrapper">
+                <div class="prof-info">
+                    <div class="section-title">
+                        <div class="section-img"><i class="fas fa-briefcase"></i></div>
+                        <h2>Profile Info</h2>
+                    </div>
                     <p>Phasellus tempus mauris a accumsan hendrerit.
                         Nullam a sodales mi. Ut ullamcorper mollis felis quis dictum.
                         Sed id vehicula velit, a aliquam quam.
                         Sed feugiat interdum velit non lacinia. Quisque.</p>
                 </div>
-            </div>
 
-            <div class="interests">
-                <div class="int-title">
-                    <div class="int-img"><i class="fas fa-briefcase"></i></div>
-                    <h2>Interests</h2>
-                </div>
-
-                <div class="int-container">
-
-                    <div class="art-box">
-                        <div class="art"><i class="fas fa-palette"></i></div>
-                        <br>
-                        <p>Art</p>
+                <div class="interests">
+                    <div class="section-title">
+                        <div class="section-img"><i class="fas fa-briefcase"></i></div>
+                        <h2>Interests</h2>
                     </div>
 
-                    <div class="joga-box">
-                        <div class="joga"><i class="fas fa-spa"></i></div>
-                        <br>
-                        <p>Yoga</p>
+                    <div class="inside-content">
+
+                        <div class="interests-box">
+                            <div class="hobby"><i class="fas fa-palette"></i></div>
+                            <br>
+                            <p>Art</p>
+                        </div>
+
+                        <div class="interests-box">
+                            <div class="hobby"><i class="fas fa-spa"></i></div>
+                            <br>
+                            <p>Yoga</p>
+                        </div>
+
+                        <div class="interests-box">
+                            <div class="hobby"><i class="fas fa-hiking"></i></div>
+                            <br>
+                            <p>Hiking</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reference">
+                    <div class="section-title">
+                        <div class="section-img"><i class="fas fa-briefcase"></i></div>
+                        <h2>Reference</h2>
                     </div>
 
-                    <div class="hiking-box">
-                        <div class="hiking"><i class="fas fa-hiking"></i></div>
-                        <br>
-                        <p>Hiking</p>
+                    <ul class="reference-list">
+                        <li> 2017 - Present
+                            <br>
+                            <span>Electronics solution</span>
+                            <br>
+                            Project Mgt Specialist
+                        </li>
+                        <li>2015 - 2017
+                            <br>
+                            <span>GIO Global</span>
+                            <br>
+                            Senior Analyst
+                        </li>
+                        <li>2010 - 2015
+                            <br>
+                            <span>Curve</span>
+                            <br>
+                            Business Analyst, Assistant
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="awards">
+                    <div class="section-title">
+                        <div class="section-img"><i class="fas fa-briefcase"></i></div>
+                        <h2>Awards</h2>
                     </div>
-                </div>
-            </div>
 
-            <div class="reference">
-                <div class="ref-title">
-                    <div class="ref-img"><i class="fas fa-briefcase"></i></div>
-                    <h2>Reference</h2>
-                </div>
-
-                <ul class="ref-list">
-                    <li> 2017 - Present
-                        <br>
-                        <span>Electronics solution</span>
-                        <br>
-                        Project Mgt Specialist
-                    </li>
-                    <li>2015 - 2017
-                        <br>
-                        <span>GIO Global</span>
-                        <br>
-                        Senior Analyst
-                    </li>
-                    <li>2010 - 2015
-                        <br>
-                        <span>Curve</span>
-                        <br>
-                        Business Analyst, Assistant
-                    </li>
-                </ul>
-            </div>
-
-            <div class="awards">
-                <div class="award-title">
-                    <div class="award-img"><i class="fas fa-briefcase"></i></div>
-                    <h2>Awards</h2>
-                </div>
-
-                <div class="award-list" style="font-weight: bold;">
-                    <span>Committed 2017</span><br>
-                    <span>Collaborative 2017</span><br>
-                    <span>Courageous 2015</span><br>
+                    <div class="inside-content">
+                        <span>Committed 2017</span><br>
+                        <span>Collaborative 2017</span><br>
+                        <span>Courageous 2015</span><br>
+                    </div>
                 </div>
             </div>
         </aside>
 
         <section>
             <div class="section-container">
-                <div class="portfolio">
-                    <div class="portf-img"><i class="fas fa-briefcase"></i></div>
+                <div class="section-title">
+                    <div class="section-img"><i class="fas fa-briefcase"></i></div>
                     <h2>Portfolio</h2>
                 </div>
 
                 <div class="srv-container">
-                    <div class="service1">
+                    <div class="service-box">
                         <a target="_blank"
                             href="https://venngage-wordpress.s3.amazonaws.com/uploads/2018/04/header-1.png"><img
                                 src="images/product_roadmap.jpg" alt="Product Roadmap"></a>
-                        <div class="desc1">What Makes a Useful Product Roadmap?</div>
+                        <div class="box-description">
+                            <h3>What Makes a Useful Product Roadmap?</h3>
+                            <p>Quisque dictum</p>
+                        </div>
                     </div>
 
-                    <div class="service2">
+                    <div class="service-box">
                         <a target="_blank"
                             href="https://ciklopea.com/wp-content/uploads/2018/05/Customer-Experience-800x600.png"><img
                                 src="images/customers_needs.jpg" alt="Customers Needs"></a>
-                        <div class="desc2">Your Customers Have These 30 Needs. Are You Metting Them?</div>
+                        <div class="box-description">
+                            <h3>Your Customers Have These 30 Needs. Are You Metting Them?</h3>
+                            <p>Curabitur vel dignissim</p>
+                        </div>
                     </div>
 
-                    <div class="service3">
+                    <div class="service-box">
                         <a target="_blank"
                             href="https://www.poissydesign.com/wp-content/uploads/2012/10/blog-page-archetypes.jpg"><img
                                 src="images/archetypes.jpg" alt="Archetypes"></a>
-                        <div class="desc3">The Power Behind Brand Archetypes</div>
+                        <div class="box-description">
+                            <h3>The Power Behind Brand Archetypes</h3>
+                            <p>Etiam in purus</p>
+                        </div>
                     </div>
 
-                    <div class="service4">
+                    <div class="service-box">
                         <a target="_blank"
                             href="https://harrisment.co.uk/wp-content/uploads/2010/04/text-only-logos-1288x724.png"><img
                                 src="images/brands.jpg" alt="Brands"></a>
-                        <div class="desc4">How to Choose Your Brand Color</div>
+                        <div class="box-description">
+                            <h3>How to Choose Your Brand Color</h3>
+                            <p>Suspendisse iaculis ornare</p>
+                        </div>
                     </div>
                 </div>
             </div>
